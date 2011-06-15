@@ -17,7 +17,7 @@ Instant memcached, no servers required! See www.quetzall.com for more informatio
 
 Get your CloudCache credentials for free at www.quetzall.com, then:
 
-    $cache_store = new CloudCacheNormal(CC_ACCESS_KEY, CC_SECRET_KEY);
+	var cc = require('cloudcache').createCache(CC_ACCESS_KEY, CC_SECRET_KEY);
 
 That's it!  Now start caching as you normally would and CloudCache handles the rest.
 
