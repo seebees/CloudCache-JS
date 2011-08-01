@@ -1,27 +1,30 @@
 {
-    "name": "cloudcache",
-    "version": "0.2.0",
-    "description": "A javascript implementation of CloudCache",
+    "name"              : "cloudcache",
+    "version"           : "0.2.0",
+    "description"       : "A node javascript implementation of CloudCache",
     "keywords": [
         "CloudCache",
         "quetzall",
         "javascript"
     ],
-   "author"        : "Ryan Emery <seebees@gmail.com>",
-    "bugs": {
+   "author"             : "ryan emery <seebees@gmail.com>",
+    "bugs"              : {
         "mail": "seebees@gmail.com",
         "web": "http://github.com/seebees/CloudCache-JS/issues"
     },
-    "repositories": [
+    "repositories"      : [
         {
             "type": "git",
             "url": "https://github.com/seebees/CloudCache-JS.git"
         }
     ],
-    "implements": ["http://www.quetzall.com/cloudcache"],
-    "devDependencies" : {
+    "implements"        : ["http://www.quetzall.com/cloudcache"],
+    "devDependencies"   : {
       "vows" : ">=0.1.0"
     },
-    "engines" : { "node" : ">=0.2.6" },
-    "main": "./lib/CloudCache.js"
+    "engines"           : { "node" : ">=0.2.6" },
+    "main"              : "./lib/CloudCache.js",
+    "dependencies"      : {
+        "flow"    : "0.x"
+    }
 }
